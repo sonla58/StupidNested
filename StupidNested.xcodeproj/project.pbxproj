@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9BFCA0216610DA006CBF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BFC9F216610DA006CBF73 /* AppDelegate.swift */; };
+		AC9BFCA2216610DA006CBF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BFCA1216610DA006CBF73 /* ViewController.swift */; };
+		AC9BFCA5216610DA006CBF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BFCA3216610DA006CBF73 /* Main.storyboard */; };
+		AC9BFCA7216610DB006CBF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BFCA6216610DB006CBF73 /* Assets.xcassets */; };
+		AC9BFCAA216610DB006CBF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BFCA8216610DB006CBF73 /* LaunchScreen.storyboard */; };
+		AC9BFCB5216610DB006CBF73 /* StupidNestedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BFCB4216610DB006CBF73 /* StupidNestedTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9BFCB1216610DB006CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9BFC94216610DA006CBF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9BFC9B216610DA006CBF73;
+			remoteInfo = StupidNested;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9BFC9C216610DA006CBF73 /* StupidNested.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidNested.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9BFC9F216610DA006CBF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9BFCA1216610DA006CBF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9BFCA4216610DA006CBF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9BFCA6216610DB006CBF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9BFCA9216610DB006CBF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9BFCAB216610DB006CBF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9BFCB0216610DB006CBF73 /* StupidNestedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidNestedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9BFCB4216610DB006CBF73 /* StupidNestedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidNestedTests.swift; sourceTree = "<group>"; };
+		AC9BFCB6216610DB006CBF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9BFC99216610DA006CBF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9BFCAD216610DB006CBF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9BFC93216610DA006CBF73 = {
+			isa = PBXGroup;
+			children = (
+				AC9BFC9E216610DA006CBF73 /* StupidNested */,
+				AC9BFCB3216610DB006CBF73 /* StupidNestedTests */,
+				AC9BFC9D216610DA006CBF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9BFC9D216610DA006CBF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BFC9C216610DA006CBF73 /* StupidNested.app */,
+				AC9BFCB0216610DB006CBF73 /* StupidNestedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9BFC9E216610DA006CBF73 /* StupidNested */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BFC9F216610DA006CBF73 /* AppDelegate.swift */,
+				AC9BFCA1216610DA006CBF73 /* ViewController.swift */,
+				AC9BFCA3216610DA006CBF73 /* Main.storyboard */,
+				AC9BFCA6216610DB006CBF73 /* Assets.xcassets */,
+				AC9BFCA8216610DB006CBF73 /* LaunchScreen.storyboard */,
+				AC9BFCAB216610DB006CBF73 /* Info.plist */,
+			);
+			path = StupidNested;
+			sourceTree = "<group>";
+		};
+		AC9BFCB3216610DB006CBF73 /* StupidNestedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BFCB4216610DB006CBF73 /* StupidNestedTests.swift */,
+				AC9BFCB6216610DB006CBF73 /* Info.plist */,
+			);
+			path = StupidNestedTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9BFC9B216610DA006CBF73 /* StupidNested */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9BFCB9216610DB006CBF73 /* Build configuration list for PBXNativeTarget "StupidNested" */;
+			buildPhases = (
+				AC9BFC98216610DA006CBF73 /* Sources */,
+				AC9BFC99216610DA006CBF73 /* Frameworks */,
+				AC9BFC9A216610DA006CBF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StupidNested;
+			productName = StupidNested;
+			productReference = AC9BFC9C216610DA006CBF73 /* StupidNested.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9BFCAF216610DB006CBF73 /* StupidNestedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9BFCBC216610DB006CBF73 /* Build configuration list for PBXNativeTarget "StupidNestedTests" */;
+			buildPhases = (
+				AC9BFCAC216610DB006CBF73 /* Sources */,
+				AC9BFCAD216610DB006CBF73 /* Frameworks */,
+				AC9BFCAE216610DB006CBF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9BFCB2216610DB006CBF73 /* PBXTargetDependency */,
+			);
+			name = StupidNestedTests;
+			productName = StupidNestedTests;
+			productReference = AC9BFCB0216610DB006CBF73 /* StupidNestedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9BFC94216610DA006CBF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Anh Son Le";
+				TargetAttributes = {
+					AC9BFC9B216610DA006CBF73 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AC9BFCAF216610DB006CBF73 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AC9BFC9B216610DA006CBF73;
+					};
+				};
+			};
+			buildConfigurationList = AC9BFC97216610DA006CBF73 /* Build configuration list for PBXProject "StupidNested" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9BFC93216610DA006CBF73;
+			productRefGroup = AC9BFC9D216610DA006CBF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9BFC9B216610DA006CBF73 /* StupidNested */,
+				AC9BFCAF216610DB006CBF73 /* StupidNestedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9BFC9A216610DA006CBF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9BFCAA216610DB006CBF73 /* LaunchScreen.storyboard in Resources */,
+				AC9BFCA7216610DB006CBF73 /* Assets.xcassets in Resources */,
+				AC9BFCA5216610DA006CBF73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9BFCAE216610DB006CBF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9BFC98216610DA006CBF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9BFCA2216610DA006CBF73 /* ViewController.swift in Sources */,
+				AC9BFCA0216610DA006CBF73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9BFCAC216610DB006CBF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9BFCB5216610DB006CBF73 /* StupidNestedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9BFCB2216610DB006CBF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9BFC9B216610DA006CBF73 /* StupidNested */;
+			targetProxy = AC9BFCB1216610DB006CBF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9BFCA3216610DA006CBF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9BFCA4216610DA006CBF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9BFCA8216610DB006CBF73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9BFCA9216610DB006CBF73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9BFCB7216610DB006CBF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9BFCB8216610DB006CBF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9BFCBA216610DB006CBF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StupidNested/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhsonle.stupidNested.StupidNested;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9BFCBB216610DB006CBF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StupidNested/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhsonle.stupidNested.StupidNested;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC9BFCBD216610DB006CBF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StupidNestedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhsonle.stupidNested.StupidNestedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidNested.app/StupidNested";
+			};
+			name = Debug;
+		};
+		AC9BFCBE216610DB006CBF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StupidNestedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhsonle.stupidNested.StupidNestedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidNested.app/StupidNested";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9BFC97216610DA006CBF73 /* Build configuration list for PBXProject "StupidNested" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9BFCB7216610DB006CBF73 /* Debug */,
+				AC9BFCB8216610DB006CBF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9BFCB9216610DB006CBF73 /* Build configuration list for PBXNativeTarget "StupidNested" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9BFCBA216610DB006CBF73 /* Debug */,
+				AC9BFCBB216610DB006CBF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9BFCBC216610DB006CBF73 /* Build configuration list for PBXNativeTarget "StupidNestedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9BFCBD216610DB006CBF73 /* Debug */,
+				AC9BFCBE216610DB006CBF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9BFC94216610DA006CBF73 /* Project object */;
+}
